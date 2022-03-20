@@ -76,8 +76,6 @@
 		float: right;
 		margin-bottom: -30px;
 	}
-
-
 	
 	  .row {
 		width: 100%;
@@ -129,6 +127,7 @@
 		.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
 		  float: left;
 		}
+
 		.col-md-1 {
 		  width: 8.33%;
 		}
@@ -167,3 +166,10 @@
 		}
 	  }
 	
+	  @media (min-width: 1px) and (max-width: 767px) {
+
+		  .maincontainer {
+			  margin-left: 30px;
+			  margin-right: 30px;
+		  }
+	  }
