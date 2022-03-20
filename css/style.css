@@ -15,18 +15,21 @@
 		border: 3px solid grey;
 		height: auto;
 		width: auto;
-		margin-top: 20px;
-		margin-bottom: 20px;
 		position: relative;
+		margin-bottom: 10px;
+		margin-left: 10px;
+		margin-right: 10px;
 	}
 
 	p {
 		padding-left: 30px;
-		padding-top: 0;
 		clear: right;
+		position: relative;
+		bottom: 10px;
 	}
 
 	h2 {
+		font-family: Arial, Helvetica, sans-serif;
 		background-color: lightblue;
 		border: 2px solid grey;
 		height: auto;
@@ -42,6 +45,7 @@
 	}
 
 	h3 {
+		font-family: Arial, Helvetica, sans-serif;
 		background-color: lightcoral;
 		border: 2px solid grey;
 		height: auto;
@@ -57,6 +61,7 @@
 	}
 
 	h4 {
+		font-family: Arial, Helvetica, sans-serif;
 		background-color: lightseagreen;
 		border: 2px solid grey;
 		height: auto;
@@ -70,6 +75,8 @@
 		float: right;
 		margin-bottom: -30px;
 	}
+
+
 	
 	  .row {
 		width: 100%;
@@ -78,7 +85,6 @@
 	  @media (min-width: 992px) {
 		.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
 		  float: left;
-		  border: 20px solid white;
 		}
 		.col-lg-1 {
 		  width: 8.33%;
@@ -121,7 +127,6 @@
 	  @media (min-width: 768px) and (max-width: 991px) {
 		.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
 		  float: left;
-		  border: 20px solid white;
 		}
 		.col-md-1 {
 		  width: 8.33%;
